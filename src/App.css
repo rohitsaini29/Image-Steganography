@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+.App {
+ width:100%;
+ height:100vh;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+
+
+@font-palette-values --Grays {
+  font-family: Rocher;
+  base-palette: 9;
+}
+.title{
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 100px;
+  font-palette: --Grays;
+ 
+}
+
+
+
+
+.cards{
+
+  display: flex;
+  flex-direction: row;
+}
+
